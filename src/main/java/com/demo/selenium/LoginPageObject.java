@@ -45,7 +45,7 @@ public class LoginPageObject {
 	
 	public void validateRegisterPage(){
 		Assert.assertEquals(registrationLabel.getText(), REGISTRATIONTEXT);
-		Assert.assertEquals(registerBtn.getText(), "register");
+		Assert.assertEquals(registerBtn.getAttribute("value"), "register");
 	}
 
 	public void fillRegistrationDetails

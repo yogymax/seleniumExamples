@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class RegisterationTest {
 	
-	private static final String appUrl = "C:\\Users\\Progvaltion_11\\git\\seleniumExamples\\src\\main\\java\\com\\others\\sample.html";
+	private static final String appUrl = "C:\\Users\\VINEED\\git\\seleniumExamples\\src\\main\\java\\com\\others\\sample.html";
 	LoginPageObject loginInPO =null;
 	@BeforeClass
 	public void myMethod() {
